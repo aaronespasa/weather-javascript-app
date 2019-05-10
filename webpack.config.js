@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/app/index.js', // Get the configuration
     output: {
-        path: path.join(__dirname, 'dist'), // Create 'dist' folder next to 'src' folder
+        path: path.join(__dirname, 'docs'), // Create 'dist' folder next to 'src' folder
         filename: 'bundle.js' // The file composed of all the files from 'app' folder
     },
     devServer: {
